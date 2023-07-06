@@ -20,7 +20,7 @@ ssh-keygen -f ~/<path_to_new_file_key> -t ed25519
 Note:if you plan to use this ssh key for authentication mysql workbench, I would recommend
 `rsa` because I at the time of this writing, that is what mySQL workbench supported.
 
-
+scp 03-27-23-prodthumbs-weaster.tar.gz stgsfmp@stgsfmp.ssh.wpengine.net:~/sites/stgsfmp/wp-content/uploads/2023/03-27-23-prodthumbs-weaster.tar.gz
 
 This will generate by default in your `.ssh` directory in your ~ directory on your system on Mac and Linux. 
 On Windows, it will be in your `c:\Users\username\.ssh`
